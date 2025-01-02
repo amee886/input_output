@@ -59,7 +59,7 @@ HTML разметкой вместо courses_url. Вуаля, мы решили 
 появления на горизонте!
 
 Пойдем дальше. Код другой функции:
-
+```python
 def get_course_info(html):
     # ...  parsing logic
 
@@ -73,6 +73,7 @@ def get_course_info(html):
     # .... parsing logic
 
     return course_data
+```
 Что может произойти с кодом дальше?
 
 Если рейтинга нет — надо искать его на другом сайте.
